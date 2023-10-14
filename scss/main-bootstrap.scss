@@ -5,7 +5,7 @@ $primary: rgb(116, 236, 35);
 $secondary: pink;
 
 $new-colors:(
-    "aquamarine": #7fffd4
+    "aquamarine": #7fff7f
 );
 
 $theme-colors: map-merge($theme-colors, $new-colors);
