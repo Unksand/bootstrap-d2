@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/main-bootstrap.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="public/style.css">
     
@@ -26,6 +27,23 @@
         <div class="container">
           <h2 class="display-5 text-center border-bottom border-1 border-black">Buttons</h2>
           
+          <div class="btn-group"> 
+            <button class="btn btn-lg btn-primary">Default button</button>
+            <button class="btn btn-lg btn-warning">Default button</button>
+            <button class="btn btn-lg btn-dark">Default button</button>
+            <button class="btn btn-lg btn-success">Default button</button>
+            <button class="btn btn-lg btn-secondary">Default button</button>
+            <button class="btn btn-lg btn-aquamarine">Default button</button>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-outline-danger">Default button</button>
+            <button class="btn btn-outline-dark">Default button</button>
+            <button class="btn btn-outline-primary">Default button</button>
+            <button class="btn btn-outline-success">Default button</button>
+          </div>
+          <div>
+            <button class="btn btn-link text-bg-danger">Default button</button>
+          </div>
         </div>
       </section>  
       
@@ -36,6 +54,46 @@
         <div class="container">
           <h2 class="display-5 text-center border-bottom border-1 border-black">Cards</h2>
           <h2 class="text-center">Programming Skills</h2>
+          <div class="row">
+            
+            <div class="col-4 h-100 text-bg-aquamarine">
+              <div class="card">
+                <img src="public/img/Bootstrap_logo.svg.png" alt="bootstrap" class="card-img-top" style="width: 8rem;">
+              <div class="card-body">
+                <h3 class="card-title">Bootstrap</h3>
+                <p class="card-text">just a bootstrap dev on day 2</p>
+    
+              </div>
+              </div>
+  
+            </div>
+            <div class="col-4 h-100">
+              <div class="card">
+                <img src="public/img/html-logo.svg" alt="HTML" class="card-img-top" style="width: 8rem;">
+              <div class="card-body">
+                <h3 class="card-title">HTML</h3>
+                <p class="card-text">just a HTML dev on day 2</p>
+    
+              </div>
+              </div>
+  
+            </div>
+            <div class="col-4 h-100">
+              
+              <div class="card">
+                <img src="public/img/css-logo.png" alt="CSS" class="card-img-top" style="width: 8rem;">
+              <div class="card-body">
+                <h3 class="card-title">CSS</h3>
+                <p class="card-text">just a CSS dev on day 2</p>
+    
+              </div>
+              </div>
+  
+            </div>
+          </div>
+          
+
+         
         </div>
       </section>
 
@@ -45,6 +103,15 @@
       <section id="dropdowns" class="text-bg-light px-2 py-5">
         <div class="container" style="height: 18rem;">
           <h2 class="display-5 text-center border-bottom border-1 border-black">DROPDOWN</h2>
+          
+          <div class="dropdown " data-bs-theme="btn-dark text">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >How to Expand</button>
+              <ul class="dropdown-menu bg-aquamarine">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+          </div>
           
         </div>
       </section>
